@@ -1,5 +1,5 @@
 homepage: "https://upollo.ai"
 documentation: "https://upollo.ai/documentation"
 versions:
-  - sha: 
+  - sha: 6f2d00ff92b46252e568bb16029e82ff787db0a1
     changeNotes: Initial Version
