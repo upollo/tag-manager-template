@@ -1,0 +1,5 @@
+homepage: "https://upollo.ai"
+documentation: "https://upollo.ai/documentation"
+versions:
+  - sha: 
+    changeNotes: Initial Version
