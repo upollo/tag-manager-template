@@ -42,7 +42,7 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 
 const injectScript = require('injectScript');
-const url = 'https://cdn.upollo.ai/tag/latest/bundle.min.js?key=' + data.apiKey;
+const url = 'https://cdn.upollo.ai/tag/latest/bundle.min.js?key=' + encodeUriComponent(data.apiKey);
 injectScript(url,data.gtmOnSuccess,data.gtmOnFailure);
 data.gtmOnSuccess();
 
